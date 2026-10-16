@@ -1,0 +1,19 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# saidas geradas pela CLI
+netlag-*.csv
+netlag-*.html
+!docs/exemplo-relatorio.html
+
+.idea/
+.vscode/
